@@ -1,0 +1,40 @@
+
+[2026-05-01 09:01:00.481027]
+User: I want password reset
+Agent: You can reset your password using the 'Forgot Password' option.
+
+[2026-05-01 09:01:10.703624]
+User: my card is stolen
+Agent: Sorry, I could not understand your request. Please contact customer support.
+
+[2026-05-01 09:01:54.506882]
+User: whatr is it
+Agent: Sorry, I could not understand your request. Please contact customer support.
+
+[2026-05-01 09:02:03.719962]
+User: junk junk junk
+Agent: Sorry, I could not understand your request. Please contact customer support.
+
+[2026-05-01 09:02:17.311721]
+User: how to fix broken chair
+Agent: Sorry, I could not understand your request. Please contact customer support.
+
+[2026-05-01 09:02:46.645233]
+User: 1.	“I forgot my password and cannot log in.”
+Agent: You can reset your password using the 'Forgot Password' option.
+
+[2026-05-01 09:03:01.397417]
+User: 2.	“Why was my payment charged twice?”
+Agent: Please verify whether the payment was deducted from your account.
+
+[2026-05-01 09:03:12.732882]
+User: 3.	“The website is showing Error 503. What should I do?”
+Agent: Error 503 means the service is temporarily unavailable.
+
+[2026-05-01 09:03:24.914393]
+User: 4.	“Can you disable MFA for my account permanently?”
+Agent: Sorry, I could not understand your request. Please contact customer support.
+
+[2026-05-01 09:03:35.908852]
+User: 5.	“How can I recover deleted customer records?”
+Agent: Sorry, I could not understand your request. Please contact customer support.

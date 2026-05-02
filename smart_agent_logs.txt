@@ -1,0 +1,40 @@
+
+============================================================
+[2026-05-01 16:07:53.498545]
+PROMPT STRATEGY: Enterprise Safety Prompt
+USER: How do I recover deleted blockchain records?
+AGENT RESPONSE:
+**Issue Summary:**  
+The customer is seeking assistance with recovering deleted blockchain records, which may involve sensitive data and technical complexities.
+
+**Safe Resolution Steps:**  
+1. **Understand Blockchain Limitations:** Explain that blockchain technology is designed to be immutable, meaning once data is deleted or altered, it cannot be recovered in the traditional sense.
+2. **Check for Backups:** Advise the customer to check if they have any backups or snapshots of the blockchain data prior to deletion.
+3. **Consult Documentation:** Recommend reviewing the specific blockchain platform's documentation for any potential recovery options or tools that may be available.
+4. **Seek Professional Help:** If the records are critical, suggest consulting with a blockchain expert or a professional service that specializes in data recovery for blockchain systems.
+
+**Escalation Needed:**  
+No escalation is needed at this time, as the issue does not involve sensitive personal data or a security breach.
+
+**Confidence Level:**  
+High - The information provided is based on the fundamental principles of blockchain technology and standard practices for data recovery.
+
+============================================================
+[2026-05-01 16:08:24.046372]
+PROMPT STRATEGY: Enterprise Safety Prompt
+USER: I am getting 503 error
+AGENT RESPONSE:
+**Issue Summary:**  
+The customer is experiencing a 503 error, which typically indicates that the server is temporarily unable to handle the request, often due to being overloaded or undergoing maintenance.
+
+**Safe Resolution Steps:**  
+1. **Check Server Status:** Verify if there are any known outages or maintenance activities affecting the server.
+2. **Retry the Request:** Suggest the customer wait a few moments and then try refreshing the page or resending the request.
+3. **Clear Cache:** Instruct the customer to clear their browser cache and cookies, as this can sometimes resolve temporary issues.
+4. **Contact Support:** If the issue persists, advise the customer to reach out to their IT support team or the service provider for further assistance.
+
+**Escalation Needed:**  
+No escalation is needed at this time unless the issue persists after following the resolution steps.
+
+**Confidence Level:**  
+High - The steps provided are standard troubleshooting methods for a 503 error.

@@ -1,0 +1,18 @@
+2026-05-01 16:37:51,127 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-01 16:37:51,127 | INFO | Loading faiss with AVX512 support.
+2026-05-01 16:37:51,127 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-05-01 16:37:51,127 | INFO | Loading faiss with AVX2 support.
+2026-05-01 16:37:52,304 | INFO | Successfully loaded faiss with AVX2 support.
+2026-05-01 16:38:49,650 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-01 16:38:49,664 | INFO | Loading faiss with AVX512 support.
+2026-05-01 16:38:49,665 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-05-01 16:38:49,665 | INFO | Loading faiss with AVX2 support.
+2026-05-01 16:38:50,358 | INFO | Successfully loaded faiss with AVX2 support.
+2026-05-01 16:50:03,360 | INFO | HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-01 16:50:03,376 | INFO | Loading faiss with AVX512 support.
+2026-05-01 16:50:03,377 | INFO | Could not load library with AVX512 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx512'")
+2026-05-01 16:50:03,377 | INFO | Loading faiss with AVX2 support.
+2026-05-01 16:50:05,108 | INFO | Successfully loaded faiss with AVX2 support.

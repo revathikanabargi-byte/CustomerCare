@@ -1,0 +1,20 @@
+Password Reset Policy:
+Users can reset passwords using the Forgot Password option.
+
+Refund Policy:
+Refunds are processed within 5-7 business days.
+
+Delivery Policy:
+Orders are shipped within 2 business days.
+
+MFA Security Policy:
+MFA cannot be permanently disabled without admin approval.
+
+Error 503:
+Error 503 indicates temporary server unavailability.
+
+Fraud Handling:
+Fraud-related incidents must be escalated immediately.
+
+Account Security:
+Compromised accounts should be escalated to the security team.
