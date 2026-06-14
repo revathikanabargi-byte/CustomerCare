@@ -96,6 +96,7 @@ import time
 import uuid
 import logging
 import traceback
+from dotenv import load_dotenv
 
 from typing import Dict
 
@@ -126,10 +127,15 @@ from langchain_text_splitters import (
 from langchain_core.prompts import PromptTemplate
 
 # =========================================================
-# OPENAI API KEY
+# LOAD ENVIRONMENT VARIABLES
 # =========================================================
 
-os.environ["OPENAI_API_KEY"] = "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"
+# Load environment variables from .env file
+load_dotenv()
+
+# Verify API key is loaded
+if not os.getenv("OPENAI_API_KEY"):
+    raise ValueError("OPENAI_API_KEY not found in environment variables. Please create a .env file with your API key.")
 
 # =========================================================
 # LOGGING CONFIGURATION

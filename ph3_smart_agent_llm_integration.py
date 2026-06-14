@@ -1,14 +1,20 @@
 import os
 import datetime
+from dotenv import load_dotenv
 
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
 
 # ---------------------------------------------------
-# SET OPENAI API KEY
+# LOAD ENVIRONMENT VARIABLES
 # ---------------------------------------------------
 
-os.environ["OPENAI_API_KEY"] = "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"
+# Load environment variables from .env file
+load_dotenv()
+
+# Verify API key is loaded
+if not os.getenv("OPENAI_API_KEY"):
+    raise ValueError("OPENAI_API_KEY not found in environment variables. Please create a .env file with your API key.")
 
 # ---------------------------------------------------
 # LLM CONFIGURATION

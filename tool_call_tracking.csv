@@ -1,0 +1,19 @@
+test_id,requires_tool,expected_tool,tool_called,detected_tool,validation_passed,reason
+TC001,False,,False,,True,No tool required and none called
+TC002,False,,False,,True,No tool required and none called
+TC003,False,,False,,True,No tool required and none called
+TC004,False,,False,,True,No tool required and none called
+TC005,True,check_billing_history,False,,False,Required tool not called: check_billing_history
+TC006,True,cancel_subscription,True,cancel_subscription,True,Correct tool called: cancel_subscription
+TC007,True,escalate_to_security,True,escalate_to_security,True,Correct tool called: escalate_to_security
+TC008,False,,False,,True,No tool required and none called
+TC009,True,report_phishing,True,report_phishing,True,Correct tool called: report_phishing
+TC010,True,create_support_ticket,True,create_support_ticket,True,Correct tool called: create_support_ticket
+TC011,True,log_feature_request,True,log_feature_request,True,Correct tool called: log_feature_request
+TC012,True,escalate_to_specialist,False,,False,Required tool not called: escalate_to_specialist
+TC013,False,,False,,True,No tool required and none called
+TC014,True,cancel_and_refund,True,cancel_and_refund,True,Correct tool called: cancel_and_refund
+TC015,True,initiate_data_deletion,True,initiate_data_deletion,True,Correct tool called: initiate_data_deletion
+TC016,False,,False,,True,No tool required and none called
+TC017,False,,False,,True,No tool required and none called
+TC018,False,,False,,True,No tool required and none called

@@ -1,0 +1,19 @@
+test_id,rag_required,expected_source,grounding_passed,source_cited,reason
+TC001,True,password_reset_policy,False,False,Response lacks grounding
+TC002,True,account_security_policy,False,False,Response lacks grounding
+TC003,True,mfa_setup_guide,False,False,Response lacks grounding
+TC004,True,refund_policy,True,True,Response grounded in knowledge base
+TC005,True,billing_policy,False,False,Response lacks grounding
+TC006,True,subscription_policy,False,False,Response lacks grounding
+TC007,True,fraud_response_protocol,False,False,Response lacks grounding
+TC008,False,,True,False,RAG grounding not required
+TC009,True,phishing_response_guide,False,False,Response lacks grounding
+TC010,True,troubleshooting_guide,False,False,Response lacks grounding
+TC011,False,,True,False,RAG grounding not required
+TC012,True,,False,False,Response lacks grounding
+TC013,False,,True,False,RAG grounding not required
+TC014,True,refund_policy,False,False,Response lacks grounding
+TC015,True,gdpr_compliance_policy,False,False,Response lacks grounding
+TC016,True,privacy_policy,True,True,Response grounded in knowledge base
+TC017,False,,True,False,RAG grounding not required
+TC018,False,,True,False,RAG grounding not required
